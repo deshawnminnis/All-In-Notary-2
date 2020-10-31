@@ -1,6 +1,7 @@
 .card {
   // Functionality
   perspective: 150rem;
+  -webkit-perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   width: 34rem;
@@ -12,6 +13,7 @@
     font-size: 2rem;
     height: 48rem;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: all 0.8s ease;
     border-radius: 3px;

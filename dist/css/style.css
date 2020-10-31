@@ -256,6 +256,7 @@ body {
 
 .card {
   perspective: 150rem;
+  -webkit-perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   width: 34rem;
@@ -266,6 +267,7 @@ body {
     font-size: 2rem;
     height: 48rem;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: all 0.8s ease;
     border-radius: 3px;
@@ -817,11 +819,11 @@ body {
   overflow: hidden;
   top: 90%;
   right: 0;
-  margin: 0 1.5rem 0 0;
+  margin: 0 1.5rem 1rem 0;
   z-index: 100;
   color: #fff;
   padding: 1.75rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background: linear-gradient(to bottom right, #1ae98e, #18945d);
   border: none;
   box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
