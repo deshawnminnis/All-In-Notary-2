@@ -708,15 +708,16 @@ body {
   .footer .footer__bottom .footer__copyright-item:not(:first-child) {
     margin-top: 2rem; } }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   .header .mobile__logo-box img {
     width: 7rem;
     transform: translateX(3rem); }
   .header .hamburger {
     display: block;
-    transform: translateX(-3rem); }
+    transform: translateX(-6rem); }
   .header .hamburger .fas {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    transform: translateX(0); }
   .container-large {
     padding: 0; }
   .why .why__card {

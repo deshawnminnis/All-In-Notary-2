@@ -342,7 +342,7 @@
 }
 
 // Small devices
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   // header
   .header .mobile__logo-box img {
     width: 7rem;
@@ -351,11 +351,12 @@
 
   .header .hamburger {
     display: block;
-    transform: translateX(-3rem);
+    transform: translateX(-6rem);
   }
 
   .header .hamburger .fas {
     font-size: 2.5rem;
+    transform: translateX(0);
   }
 
   // why
