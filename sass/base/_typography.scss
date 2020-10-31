@@ -1,0 +1,133 @@
+body {
+  font-family: $font-secondary;
+  font-weight: 400;
+  // line-height: 1.5;
+}
+
+// headings
+.primary-heading {
+  &--main {
+    color: $color-white;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+
+    backface-visibility: hidden;
+    // margin-bottom: 6rem;
+    display: block;
+    font-size: 8rem;
+    // font-size: clamp(4rem, 8vw, 7rem);
+    font-weight: 500;
+    letter-spacing: 1.5rem;
+
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  &--sub {
+    color: $color-white;
+    text-transform: uppercase;
+    display: block;
+    font-family: $font-secondary;
+    font-size: 2.5rem;
+    // font-size: clamp(2.5rem, 3.5vw, 4rem);
+    font-weight: 600;
+    letter-spacing: 1.2rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.primary-heading-green {
+  font-size: 7rem;
+  font-weight: 500;
+  font-family: $font-secondary;
+  letter-spacing: 4px;
+  color: $color-primary;
+  color: transparent;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-dark,
+    $color-primary-light
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.primary-heading-gold {
+  font-size: 7rem;
+  font-weight: 500;
+  font-family: $font-secondary;
+  letter-spacing: 4px;
+  color: $color-primary;
+  color: transparent;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-secondary-dark,
+    $color-secondary-light
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.primary-heading-white {
+  font-size: 7rem;
+  font-weight: 500;
+  font-family: $font-secondary;
+  letter-spacing: 4px;
+  color: $color-white;
+}
+
+.primary-text {
+  font-size: 1.8rem;
+  font-family: $font-secondary;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  color: $color-grey-dark-1;
+}
+
+.primary-text-white {
+  font-size: 1.8rem;
+  font-family: $font-secondary;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  color: $color-white;
+}
+
+.secondary-heading-grey {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: $font-secondary;
+  letter-spacing: 4px;
+  color: $color-grey-dark-1;
+  // color: transparent;
+  // background-image: linear-gradient(
+  //   to right,
+  //   $color-primary-light,
+  //   $color-primary-dark
+  // );
+  // -webkit-background-clip: text;
+  // background-clip: text;
+}
+
+.tertiary-heading-grey {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: $font-secondary;
+  letter-spacing: 2px;
+}
+
+.tertiary-heading-grey-large {
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  font-family: $font-secondary;
+  letter-spacing: 2px;
+}
+
+.tertiary-heading-white {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  color: $color-white;
+  font-family: $font-secondary;
+  letter-spacing: 2px;
+}

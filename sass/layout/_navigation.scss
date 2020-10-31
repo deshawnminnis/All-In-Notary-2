@@ -1,0 +1,57 @@
+.navigation {
+  // padding: 1.25rem 0 0.75rem 0;
+  z-index: 2;
+  // display: none;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    display: inline-block;
+
+    & a {
+      color: $color-white;
+      // color: transparent;
+      // background-image: linear-gradient(
+      //   to right,
+      //   $color-secondary-light,
+      //   $color-secondary-dark
+      // );
+      // -webkit-background-clip: text;
+      display: inline-block;
+      background-clip: text;
+      font-family: $font-secondary;
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin: 0 2rem;
+      // padding: 0 1rem;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $color-primary;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+// Mobile nav, logo and hamburger
+.hamburger {
+  display: none;
+}
+
+.hamburger .fas {
+  cursor: pointer;
+  color: $color-white;
+  font-size: 4rem;
+}
+
+.mobile__logo-box {
+  display: none;
+}

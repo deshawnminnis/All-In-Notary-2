@@ -1,0 +1,229 @@
+.footer {
+  background-color: $color-grey-dark-2;
+  // background: linear-gradient(
+  //   to right bottom,
+  //   $color-grey-dark-1,
+  //   $color-grey-dark-2
+  // );
+  position: relative;
+
+  &__inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  &__header {
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+
+  // Contact form
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+      padding: 1rem;
+      font-family: $font-secondary;
+      font-size: 1.4rem;
+      width: 30rem;
+      border: none;
+      border-radius: 3px;
+      border-bottom: 2px solid $color-primary;
+      border-width: 100%;
+      // overflow: hidden;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &__email {
+      padding: 1rem;
+      font-family: $font-secondary;
+      font-size: 1.4rem;
+      width: 30rem;
+      border: none;
+      border-radius: 3px;
+      border-bottom: 2px solid $color-primary;
+      border-width: 100%;
+      // overflow: hidden;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &__message {
+      padding: 1rem;
+      width: 30rem;
+      font-family: $font-secondary;
+      font-size: 1.4rem;
+      height: 8rem;
+      border: none;
+      border-radius: 3px;
+      border-bottom: 2px solid $color-primary;
+      border-width: 100%;
+      // overflow: hidden;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    ::placeholder {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      font-family: $font-secondary;
+    }
+
+    .btn-3 {
+      &,
+      &:link,
+      &:visited {
+        font-family: $font-secondary;
+        font-size: $default-font-size;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1rem 3rem;
+        display: inline-block;
+        border-radius: 10px;
+        width: 100%;
+        transition: all 0.2s;
+        position: relative;
+        letter-spacing: 1.5px;
+
+        border: none;
+        cursor: pointer;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      }
+
+      &:active,
+      &:focus {
+        outline: none;
+        transform: translateY(1px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  // Site map
+  &__list {
+    list-style: none;
+
+    &-items {
+      // margin-top: 1rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+    }
+
+    &-items:not(:first-child) {
+      margin-top: 2rem;
+    }
+
+    &-link {
+      color: $color-white;
+      text-decoration: none;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+  }
+
+  // Company info
+  &__company {
+    &-item {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+    }
+
+    &-item:not(:first-child) {
+      margin-top: 2rem;
+    }
+
+    &-phone {
+      text-decoration: none;
+      color: $color-white;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+
+    &-email {
+      text-decoration: none;
+      color: $color-white;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+
+    // Social icons
+    .footer__socials {
+      margin-top: 2rem;
+
+      // &-link {
+      // }
+
+      &-link:not(:first-child) {
+        margin-left: 2.25rem;
+      }
+
+      &-link .fab {
+        cursor: pointer;
+        color: $color-white;
+        transition: all 0.5s;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  // Footer copyright
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    letter-spacing: 1px;
+  }
+
+  &__copyright-item {
+    display: inline-block;
+    padding: 0 4rem;
+    color: $color-white;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  &__privacy-policy,
+  &__terms-conditions {
+    color: $color-white;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

@@ -1,0 +1,378 @@
+// Widescreens
+
+// Laptops
+@media screen and (max-width: 1024px) {
+  // Testimonials 2
+  .testimonials-2 {
+    &__container &__item {
+      padding: 4rem;
+      width: 72rem;
+    }
+  }
+
+  // About
+  .about {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+
+    .about__img-box {
+      // width: 50%;
+      margin-bottom: 2rem;
+    }
+
+    .about__img-box img {
+      width: 40%;
+      margin-right: 0;
+    }
+
+    .about__content .about__info .tertiary-heading-grey-large {
+      margin-left: 0;
+    }
+
+    .about__content .about__info .about__heading-title {
+      padding: 0;
+    }
+
+    .about__content .about__info .about__text {
+      padding: 0 6rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// Tablets
+@media screen and (max-width: 768px) {
+  // Navigation/banner
+
+  .navigation__list {
+    display: none;
+  }
+
+  .banner {
+    // display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner .banner__box {
+    position: relative;
+  }
+
+  .banner__phone {
+    display: none;
+  }
+
+  .banner .banner__logo-box img {
+    display: none;
+  }
+
+  // Mobile navigation
+  .mobile__nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .header .mobile__logo-box {
+    position: relative;
+    display: block;
+  }
+
+  .header .mobile__logo-box img {
+    width: 11rem;
+    transform: translateX(11rem);
+  }
+
+  .header .hamburger {
+    display: block;
+    transform: translateX(-7rem);
+  }
+
+  .header__text-box .primary-heading--main {
+    font-size: 6rem;
+  }
+
+  // Testimonials 2
+  .testimonials-2 {
+    &__container &__item {
+      padding: 4rem;
+      width: 55rem;
+    }
+  }
+
+  // Services
+  .services {
+    & .container-small {
+      padding: 0 2rem;
+    }
+  }
+
+  // How To
+  .how-to .container-small .tertiary-heading-white {
+    padding: 0 6rem;
+
+    & .how-to .how-to__steps {
+      padding: 0 4rem;
+    }
+  }
+
+  // Footer
+  .footer {
+    & .container-large {
+      padding: 0;
+    }
+
+    & .form__input {
+      width: 25rem;
+    }
+
+    & .form__email {
+      width: 25rem;
+    }
+
+    & .form__message {
+      width: 25rem;
+    }
+  }
+}
+
+// Mobile devices
+@media screen and (max-width: 500px) {
+  // Sticky phone icon
+  .sticky__phone-link {
+    margin: 0 1.5rem 0 0;
+    padding: 1.75rem;
+    font-size: 1.2rem;
+  }
+
+  // Header
+  .header {
+    overflow: hidden;
+  }
+
+  .header .mobile__logo-box img {
+    width: 8rem;
+    transform: translateX(4rem);
+  }
+
+  .header .hamburger {
+    display: block;
+    transform: translateX(-3.5rem);
+  }
+
+  .header .hamburger .fas {
+    font-size: 2.5rem;
+  }
+
+  .header__text-box {
+    width: 90%;
+  }
+
+  .header__text-box .primary-heading--main {
+    font-size: 3.75rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .header__text-box .primary-heading--sub {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .header__text-box .btn {
+    margin-top: 1rem;
+    padding: 1.5rem 3.5rem;
+  }
+
+  // Why/benefits
+  .container-large {
+    padding: 0 2rem;
+  }
+
+  .why {
+    & .primary-heading-gold {
+      font-size: 5.5rem;
+      letter-spacing: 3px;
+    }
+  }
+
+  .why .container-large .primary-text {
+    padding: 0 2rem;
+  }
+
+  // Testimonials-2
+  .testimonials-2 {
+    //
+
+    & .primary-heading-white {
+      font-size: 5.5rem;
+      letter-spacing: 3px;
+    }
+
+    &__container .testimonials-2__item {
+      width: 28rem;
+      padding: 2rem;
+    }
+
+    &__container &__paragraph {
+      font-size: 1.3rem;
+    }
+  }
+
+  // Services
+  .services {
+    & .primary-heading-gold {
+      font-size: 6rem;
+      letter-spacing: 3px;
+    }
+  }
+
+  // How-to
+  .how-to .container-small {
+    padding: 0;
+  }
+
+  .how-to .container-small .primary-heading-white {
+    font-size: 6rem;
+  }
+
+  .how-to .how-to__step-heading {
+    letter-spacing: 1px;
+  }
+
+  // Pricing cards
+  .pricing__cards {
+    & .card__picture {
+      height: 25rem;
+    }
+
+    & .card__heading {
+      font-size: 2.15rem;
+    }
+
+    & .card__details {
+      padding: 0;
+    }
+  }
+
+  // .pricing .container-large {
+  //   padding: 0;
+  // }
+
+  // .pricing .primary-heading-gold {
+  //   font-size: 6rem;
+  // }
+
+  // About
+  .about .about__img-box {
+    overflow: hidden;
+    width: 140%;
+  }
+
+  .about .container-small {
+    padding: 0 2rem;
+  }
+
+  .about .about__content .about__info .about__text {
+    padding: 0 2rem;
+  }
+
+  .about .primary-heading-green {
+    font-size: 6rem;
+  }
+
+  .about .tertiary-heading-grey-large {
+    font-size: 2.5rem;
+  }
+
+  .about .about__heading-title {
+    font-size: $default-font-size;
+  }
+
+  // Footer
+  .footer .footer__inner {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form .form__input,
+  .form .form__email,
+  .form .form__message {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    // font-size: 1.5rem;
+  }
+
+  .footer__links .footer__list {
+    text-align: center;
+  }
+
+  .footer .form .btn-3 {
+    width: 100%;
+  }
+
+  .footer .footer__bottom .footer__copyright-item {
+    display: block;
+    text-align: center;
+  }
+
+  .footer .footer__bottom .footer__copyright-item:not(:first-child) {
+    margin-top: 2rem;
+  }
+}
+
+// Small devices
+@media screen and (max-width: 350px) {
+  // header
+  .header .mobile__logo-box img {
+    width: 7rem;
+    transform: translateX(3rem);
+  }
+
+  .header .hamburger {
+    display: block;
+    transform: translateX(-3rem);
+  }
+
+  .header .hamburger .fas {
+    font-size: 2.5rem;
+  }
+
+  // why
+  .container-large {
+    padding: 0;
+  }
+
+  .why .why__card {
+    margin: 2rem;
+  }
+
+  // Testimonials-2
+  .testimonials-2 {
+    //
+    & .primary-heading-white {
+      font-size: 5rem;
+      letter-spacing: 3px;
+    }
+
+    &__container .testimonials-2__item {
+      width: 24rem;
+      padding: 1rem;
+    }
+
+    &__container &__paragraph {
+      font-size: 1.3rem;
+    }
+
+    &__quote {
+      font-size: 2.25rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ain",
+  "version": "1.0.0",
+  "description": "AIN",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss dist/css/style.css -w"
+  },
+  "author": "De'Shawn Minnis",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

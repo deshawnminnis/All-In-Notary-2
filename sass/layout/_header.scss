@@ -1,0 +1,35 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-secondary, 0.6),
+      rgba($color-secondary, 0.6)
+    ),
+    url("../img/hero-large-2.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    z-index: 2;
+  }
+
+  // &__text-box {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   z-index: 2;
+  // }
+
+  .btn {
+    margin-top: 2rem;
+    z-index: 2;
+  }
+}

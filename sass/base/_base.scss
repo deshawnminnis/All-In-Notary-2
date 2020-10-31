@@ -1,0 +1,27 @@
+/* Setting root font-size for easy conversion of measurements and media queries */
+html {
+  font-size: 62.5%;
+  // scroll-behavior: smooth;
+}
+
+// CSS Reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  color: $color-grey-dark-1;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

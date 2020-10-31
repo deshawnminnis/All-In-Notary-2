@@ -1,0 +1,67 @@
+.sidebar {
+  background: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  position: fixed;
+  height: 100vh;
+  padding-right: 4.5rem;
+  padding-left: 4.5rem;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  overflow-x: hidden;
+  transition: all 0.7s ease;
+
+  transform: translateX(-40rem);
+
+  &__nav {
+    display: block;
+  }
+
+  &__content {
+    position: relative;
+    // text-align: left;
+  }
+
+  &__close {
+    position: absolute;
+    top: -10%;
+    right: -25%;
+
+    &-icon {
+      color: $color-white;
+      cursor: pointer;
+    }
+  }
+
+  &__link,
+  &__phone {
+    position: relative;
+    display: block;
+    color: $color-white;
+    font-family: $font-secondary;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: translateX(-2rem);
+
+    &:hover {
+      color: $color-grey-dark-1;
+    }
+  }
+}
+
+// Open sidebar
+.sidebar.open {
+  transform: translateX(0);
+}
+
+// Close sidebar
+.sidebar.close {
+  transform: translateX(-40rem);
+}
