@@ -52,6 +52,10 @@
   font-size: 4rem;
 }
 
+.hamburger:focus {
+  outline: none;
+}
+
 .mobile__logo-box {
   display: none;
 }
