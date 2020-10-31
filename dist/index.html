@@ -359,10 +359,12 @@
               </p>
             </div>
             <div class="upload__form">         
-              <form name="file-upload" method="POST" data-netlify="true" type="file" class="how-to__form u-margin-top-2">
+              <form name="file-upload" method="POST" data-netlify="true" data-netlify-recaptcha="true" type="file" class="how-to__form u-margin-top-2">
                 <div class="how-to__form-upload">
                   <input type="file" name="file" id="file" class="how-to__inputfile" />
                 </div>
+                <!-- Recaptcha -->
+                <div data-netlify-recaptcha="true" class="recap"></div>
                 <div class="how-to__form-submit">
                   <input type="submit" id="submit" name="submit"class="u-margin-top-2 how-to__form-submit btn-2 btn--white">
                 </div>
@@ -532,10 +534,12 @@
             <h3 class="primary-text-white footer__header">
               Contact Us
             </h3>
-            <form name="contact" method="POST" data-netlify="true" class="form">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="form">
               <input type="text" class="form__input" placeholder="Full Name" id="name" required>
               <input type="email" class="form__email u-margin-top-2" placeholder="Email Address" id="email" required>
               <textarea name="message" class="form__message u-margin-top-2" id="message" placeholder="Type Your Message Here" required></textarea>
+              <!-- Recaptcha -->
+              <div data-netlify-recaptcha="true" class="recap"></div>
               <input type="submit" id="submit" name="submit"class="u-margin-top-2  how-to__form-submit btn-3 btn--green">
             </form>
           </div>
