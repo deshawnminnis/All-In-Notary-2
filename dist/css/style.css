@@ -608,7 +608,11 @@ body {
   .footer .form__email {
     width: 25rem; }
   .footer .form__message {
-    width: 25rem; } }
+    width: 25rem; }
+  .recap {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (max-width: 500px) {
   .sticky__phone-link {
