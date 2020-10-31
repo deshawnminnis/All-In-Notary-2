@@ -616,9 +616,9 @@ body {
 
 @media screen and (max-width: 500px) {
   .sticky__phone-link {
-    margin: 0 1.5rem 0 0;
-    padding: 1.75rem;
-    font-size: 1.2rem; }
+    margin: 0 1rem 0 0;
+    padding: 1.5rem;
+    font-size: 1rem; }
   .header {
     overflow: hidden; }
   .header .mobile__logo-box img {
@@ -725,7 +725,9 @@ body {
   .testimonials-2__container .testimonials-2__paragraph {
     font-size: 1.3rem; }
   .testimonials-2__quote {
-    font-size: 2.25rem; } }
+    font-size: 2.25rem; }
+  .recap {
+    padding: 0 4rem; } }
 
 .navigation {
   z-index: 2; }
@@ -1047,3 +1049,8 @@ body {
     flex-wrap: wrap;
     overflow: hidden;
     padding: 0 0 6rem 0; }
+
+.recap {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
