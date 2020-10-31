@@ -624,7 +624,7 @@ body {
   .header {
     overflow: hidden; }
   .header .mobile__logo-box img {
-    width: 8rem;
+    width: 10rem;
     transform: translateX(4rem); }
   .header .hamburger {
     display: block;
