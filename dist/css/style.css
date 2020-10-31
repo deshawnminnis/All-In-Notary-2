@@ -591,7 +591,9 @@ body {
     transform: translateX(11rem); }
   .header .hamburger {
     display: block;
-    transform: translateX(-7rem); }
+    transform: translateX(-14rem); }
+  .header .hamburger .fas {
+    transform: translateX(0); }
   .header__text-box .primary-heading--main {
     font-size: 6rem; }
   .testimonials-2__container .testimonials-2__item {
@@ -628,9 +630,10 @@ body {
     transform: translateX(4rem); }
   .header .hamburger {
     display: block;
-    transform: translateX(-3.5rem); }
+    transform: translateX(-7rem); }
   .header .hamburger .fas {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    transform: translateX(0); }
   .header__text-box {
     width: 90%; }
   .header__text-box .primary-heading--main {

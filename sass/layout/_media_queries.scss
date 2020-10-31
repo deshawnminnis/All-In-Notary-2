@@ -91,7 +91,11 @@
 
   .header .hamburger {
     display: block;
-    transform: translateX(-7rem);
+    transform: translateX(-14rem);
+  }
+
+  .header .hamburger .fas {
+    transform: translateX(0);
   }
 
   .header__text-box .primary-heading--main {
@@ -171,11 +175,12 @@
   .header .hamburger {
     display: block;
     // margin-left: 4.5rem;
-    transform: translateX(-3.5rem);
+    transform: translateX(-7rem);
   }
 
   .header .hamburger .fas {
     font-size: 2.5rem;
+    transform: translateX(0);
   }
 
   .header__text-box {
