@@ -46,7 +46,7 @@
 }
 
 // Tablets
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   // Navigation/banner
 
   .navigation__list {
@@ -180,7 +180,6 @@
 // Testimonials-2
 .testimonials-2 {
   //
-
   &__container .testimonials-2__item {
     width: 40rem;
     padding: 2.25rem;
