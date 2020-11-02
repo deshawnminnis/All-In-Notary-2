@@ -257,7 +257,9 @@ body {
 .card {
   perspective: 150rem;
   -webkit-perspective: 150rem;
+  -ms-perspective: 150rem;
   -moz-perspective: 150rem;
+  -o-perspective: 150rem;
   position: relative;
   width: 34rem;
   margin: 3rem;
@@ -268,6 +270,9 @@ body {
     height: 48rem;
     width: 100%;
     -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: all 0.8s ease;
     border-radius: 3px;
@@ -287,10 +292,10 @@ body {
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #6e9efb, #184191); }
   .card:hover .card__side--front {
-    -webkit-transform: -webkit-rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
-    -webkit-transform: -webkit-rotateY(0);
+    -webkit-transform: rotateY(0);
     transform: rotateY(0); }
   .card__picture {
     background-size: cover;
@@ -858,6 +863,7 @@ body {
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
     transition: transform 0.3s; }
     .why__card:hover {
+      -webkit-transform: translateY(-1.5rem) scale(1.03, 1.03);
       transform: translateY(-1.5rem) scale(1.03); }
   .why__card-img img {
     width: 55%; }

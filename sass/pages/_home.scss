@@ -54,6 +54,7 @@
     transition: transform 0.3s;
 
     &:hover {
+      -webkit-transform: translateY(-1.5rem) scale(1.03, 1.03);
       transform: translateY(-1.5rem) scale(1.03);
     }
   }
