@@ -22,6 +22,8 @@ function frontCardFlip() {
   document.getElementById('back_card--1').style.transform = "rotateY(0)";
 }
 
+document.addEventListener("touchstart", function() {}, true);
+
 
 
 
