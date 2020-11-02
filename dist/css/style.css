@@ -771,7 +771,7 @@ body {
     padding: 0 4rem; } }
 
 @media screen and (max-width: 500px) {
-  .card__side--front:hover:active {
+  .card__side--front:hover.active {
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
