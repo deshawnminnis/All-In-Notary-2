@@ -605,7 +605,7 @@ body {
     display: block; }
   .header .mobile__logo-box img {
     width: 11rem;
-    transform: translateX(11rem); }
+    transform: translateX(12rem); }
   .header .hamburger {
     display: block;
     transform: translateX(-14rem); }
