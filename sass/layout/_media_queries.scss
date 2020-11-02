@@ -224,19 +224,6 @@
   }
 }
 
-// Testimonials-2
-.testimonials-2 {
-  //
-  &__container .testimonials-2__item {
-    width: 40rem;
-    padding: 2.25rem;
-  }
-
-  &__container &__paragraph {
-    font-size: 1.3rem;
-  }
-}
-
 // Mobile devices
 @media screen and (max-width: 500px) {
   // Sticky phone icon
