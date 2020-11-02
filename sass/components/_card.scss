@@ -9,6 +9,7 @@
   width: 34rem;
   margin: 3rem;
   height: 48rem;
+  cursor: pointer;
   line-height: 1.7;
 
   &__side {
@@ -25,6 +26,7 @@
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     position: absolute;
+    cursor: pointer;
     top: 0;
     left: 0;
 
