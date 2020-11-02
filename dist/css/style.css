@@ -583,7 +583,7 @@ body {
     padding: 0 6rem;
     margin-bottom: 2rem; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .navigation__list {
     display: none; }
   .banner {
