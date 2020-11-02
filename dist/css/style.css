@@ -608,6 +608,33 @@ body {
     transform: translateX(12rem); }
   .header .hamburger {
     display: block;
+    transform: translateX(-14rem); } }
+
+@media screen and (max-width: 768px) {
+  .navigation__list {
+    display: none; }
+  .banner {
+    position: relative;
+    justify-content: center;
+    align-items: center; }
+  .banner .banner__box {
+    position: relative; }
+  .banner__phone {
+    display: none; }
+  .banner .banner__logo-box img {
+    display: none; }
+  .mobile__nav {
+    display: flex;
+    position: relative;
+    align-items: center; }
+  .header .mobile__logo-box {
+    position: relative;
+    display: block; }
+  .header .mobile__logo-box img {
+    width: 11rem;
+    transform: translateX(12rem); }
+  .header .hamburger {
+    display: block;
     transform: translateX(-14rem); }
   .header .hamburger .fas {
     transform: translateX(0); }

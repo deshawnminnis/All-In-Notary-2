@@ -45,8 +45,58 @@
   }
 }
 
-// Tablets
+// Ipad Pro tablet
 @media screen and (max-width: 980px) {
+  // Navigation/banner
+
+  .navigation__list {
+    display: none;
+  }
+
+  .banner {
+    // display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner .banner__box {
+    position: relative;
+  }
+
+  .banner__phone {
+    display: none;
+  }
+
+  .banner .banner__logo-box img {
+    display: none;
+  }
+
+  // Mobile navigation
+  .mobile__nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .header .mobile__logo-box {
+    position: relative;
+    display: block;
+  }
+
+  .header .mobile__logo-box img {
+    width: 11rem;
+    transform: translateX(12rem);
+  }
+
+  .header .hamburger {
+    display: block;
+    transform: translateX(-14rem);
+  }
+}
+
+// Tablets
+@media screen and (max-width: 768px) {
   // Navigation/banner
 
   .navigation__list {
