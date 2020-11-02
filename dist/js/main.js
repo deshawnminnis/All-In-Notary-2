@@ -16,12 +16,8 @@ function closeSlideMenu() {
   document.getElementById('sidebar').style.transform = "translateX(-400px)";
 }
 
-// Pricing card flips
-function frontCardFlip() {
-  document.getElementById('front_card--1').style.transform = "rotateY(-180deg)";
-  document.getElementById('back_card--1').style.transform = "rotateY(0)";
-}
 
+// This will enable hover effect on touchscreens
 document.addEventListener("touchstart", function() {}, true);
 
 
