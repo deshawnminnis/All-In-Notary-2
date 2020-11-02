@@ -153,6 +153,44 @@
   }
 }
 
+// Surface Duo
+@media screen and (max-width: 540px) {
+  // Header
+  .header {
+    overflow: hidden;
+  }
+
+  .header .mobile__logo-box img {
+    width: 10rem;
+    transform: translateX(7rem);
+  }
+
+  .header .hamburger {
+    display: block;
+    // margin-left: 4.5rem;
+    transform: translateX(-10rem);
+  }
+
+  .header .hamburger .fas {
+    font-size: 2.5rem;
+    transform: translateX(0);
+  }
+}
+
+// Testimonials-2
+.testimonials-2 {
+  //
+
+  &__container .testimonials-2__item {
+    width: 40rem;
+    padding: 2.25rem;
+  }
+
+  &__container &__paragraph {
+    font-size: 1.3rem;
+  }
+}
+
 // Mobile devices
 @media screen and (max-width: 500px) {
   // Sticky phone icon

@@ -635,6 +635,26 @@ body {
     justify-content: center;
     align-items: center; } }
 
+@media screen and (max-width: 540px) {
+  .header {
+    overflow: hidden; }
+  .header .mobile__logo-box img {
+    width: 10rem;
+    transform: translateX(7rem); }
+  .header .hamburger {
+    display: block;
+    transform: translateX(-10rem); }
+  .header .hamburger .fas {
+    font-size: 2.5rem;
+    transform: translateX(0); } }
+
+.testimonials-2__container .testimonials-2__item {
+  width: 40rem;
+  padding: 2.25rem; }
+
+.testimonials-2__container .testimonials-2__paragraph {
+  font-size: 1.3rem; }
+
 @media screen and (max-width: 500px) {
   .sticky__phone-link {
     margin: 0 1rem 0 0;
@@ -873,7 +893,10 @@ body {
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
     transition: transform 0.3s; }
     .why__card:hover {
-      -webkit-transform: translateY(-1.5rem) scale(1.03, 1.03);
+      -webkit-transform: translateY(-1.5rem) scale(1.03);
+      -moz-transform: translateY(-1.5rem) scale(1.03);
+      -ms-transform: translateY(-1.5rem) scale(1.03);
+      -o-transform: translateY(-1.5rem) scale(1.03);
       transform: translateY(-1.5rem) scale(1.03); }
   .why__card-img img {
     width: 55%; }
@@ -893,6 +916,9 @@ body {
   .why__assoc img {
     width: 15rem;
     -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
     filter: grayscale(100%); }
   .why .primary-text {
     padding: 0 2rem; }

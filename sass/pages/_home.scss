@@ -54,7 +54,10 @@
     transition: transform 0.3s;
 
     &:hover {
-      -webkit-transform: translateY(-1.5rem) scale(1.03, 1.03);
+      -webkit-transform: translateY(-1.5rem) scale(1.03);
+      -moz-transform: translateY(-1.5rem) scale(1.03);
+      -ms-transform: translateY(-1.5rem) scale(1.03);
+      -o-transform: translateY(-1.5rem) scale(1.03);
       transform: translateY(-1.5rem) scale(1.03);
     }
   }
@@ -87,6 +90,9 @@
   &__assoc img {
     width: 15rem;
     -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
     filter: grayscale(100%);
   }
 
