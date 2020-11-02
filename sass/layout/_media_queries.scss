@@ -467,9 +467,9 @@
   }
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media screen and (max-width: 500px) {
   // pricing cards
-  .card__side--front:hover {
+  .card__side--front:hover:active {
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
