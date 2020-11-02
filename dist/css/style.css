@@ -263,6 +263,7 @@ body {
   position: relative;
   width: 34rem;
   margin: 3rem;
+  cursor: pointer;
   height: 48rem;
   line-height: 1.7; }
   .card__side {
