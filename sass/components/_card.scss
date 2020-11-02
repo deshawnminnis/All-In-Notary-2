@@ -67,7 +67,9 @@
     }
   }
 
-  &:hover &__side--front {
+  &:hover &__side--front,
+  &:focus &__side--front,
+  &:active &__side--front {
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
