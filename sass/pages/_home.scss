@@ -11,6 +11,7 @@
   color: $color-white;
   padding: 1.75rem;
   font-size: 1.2rem;
+  cursor: pointer;
   background: linear-gradient(
     to bottom right,
     $color-primary-light,
@@ -23,6 +24,7 @@
 
   &:hover {
     transform: scale(1.1) translateY(-0.5rem);
+    cursor: pointer;
   }
 }
 
