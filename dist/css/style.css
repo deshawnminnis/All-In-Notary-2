@@ -690,13 +690,15 @@ body {
     font-size: 5.5rem;
     letter-spacing: 3px; }
   .why .container-large .primary-text {
-    padding: 0 1rem; }
+    padding: 0 2rem; }
   .testimonials-2 .primary-heading-white {
     font-size: 5.5rem;
     letter-spacing: 3px; }
   .testimonials-2__container .testimonials-2__item {
     width: 27rem;
     padding: 2.25rem; }
+  .testimonials-2__container .testimonials-2__item .testimonials-2__text {
+    padding: 0 1rem 0 3rem; }
   .testimonials-2__container .testimonials-2__paragraph {
     font-size: 1.3rem; }
   .services .primary-heading-gold {
@@ -876,13 +878,15 @@ body {
   color: #fff;
   padding: 1.75rem;
   font-size: 1.2rem;
+  cursor: pointer;
   background: linear-gradient(to bottom right, #1ae98e, #18945d);
   border: none;
   box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
   border-radius: 50%;
   transition: all 0.5s; }
   .sticky__phone-link:hover {
-    transform: scale(1.1) translateY(-0.5rem); }
+    transform: scale(1.1) translateY(-0.5rem);
+    cursor: pointer; }
 
 .why {
   background-color: #f7f7f7; }
