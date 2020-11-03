@@ -705,7 +705,8 @@ body {
   .how-to .container-small {
     padding: 0; }
   .how-to .container-small .primary-heading-white {
-    font-size: 6rem; }
+    font-size: 6rem;
+    padding: 0 1rem; }
   .how-to .how-to__step-heading {
     letter-spacing: 1px; }
   .pricing__cards .card__picture {
