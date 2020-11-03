@@ -931,7 +931,7 @@ body {
     -o-filter: grayscale(100%);
     filter: grayscale(100%); }
   .why .primary-text {
-    padding: 0 2rem; }
+    padding: 0 6rem; }
 
 .about {
   position: relative;
