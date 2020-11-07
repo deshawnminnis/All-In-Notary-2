@@ -644,7 +644,7 @@ body {
     justify-content: center;
     align-items: center; } }
 
-@media screen and (max-width: 840px) and (min-width: 800px) {
+@media screen and (max-width: 825px) and (min-width: 820px) {
   .header {
     height: 200vh; } }
 
@@ -658,7 +658,7 @@ body {
     display: block;
     transform: translateX(-14rem); } }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 570px) {
   .header {
     overflow: hidden; }
   .header .mobile__logo-box img {

@@ -1,12 +1,19 @@
 
-// sidebar slider open
-// const sidebar = document.getElementById("sidebar");
-// const hamburger = document.getElementById("hamburger");
+// Smooth Scrolling
+$("#navbar a, #sidebar a, btn").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
 
-// hamburger.addEventListener("click", () =>{
-//   sidebar.classList.toggle("open");
+    const hash = this.hash;
 
-// });
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top - 100,
+      },
+      800
+    );
+  }
+});
 
 // Sidebar slider
 function openSlideMenu() {
