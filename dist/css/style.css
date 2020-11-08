@@ -435,7 +435,7 @@ body {
       width: 30rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid #15a465;
+      border-bottom: 2px solid #ce2127;
       border-width: 100%; }
       .footer .form__input:focus {
         outline: none; }
@@ -446,7 +446,7 @@ body {
       width: 30rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid #15a465;
+      border-bottom: 2px solid #ce2127;
       border-width: 100%; }
       .footer .form__email:focus {
         outline: none; }
@@ -458,7 +458,7 @@ body {
       height: 8rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid #15a465;
+      border-bottom: 2px solid #ce2127;
       border-width: 100%; }
       .footer .form__message:focus {
         outline: none; }
@@ -480,6 +480,7 @@ body {
       transition: all 0.2s;
       position: relative;
       letter-spacing: 1.5px;
+      background: #ce2127;
       border: none;
       cursor: pointer; }
     .footer .form .btn-3:hover {
@@ -502,7 +503,7 @@ body {
       text-decoration: none;
       transition: all 0.5s; }
       .footer__list-link:hover {
-        color: #15a465;
+        color: #ce2127;
         cursor: pointer; }
   .footer__company-item {
     font-size: 1.4rem;
@@ -515,14 +516,14 @@ body {
     color: #fff;
     transition: all 0.5s; }
     .footer__company-phone:hover {
-      color: #15a465;
+      color: #ce2127;
       cursor: pointer; }
   .footer__company-email {
     text-decoration: none;
     color: #fff;
     transition: all 0.5s; }
     .footer__company-email:hover {
-      color: #15a465;
+      color: #ce2127;
       cursor: pointer; }
   .footer__company .footer__socials {
     margin-top: 2rem; }
@@ -533,7 +534,7 @@ body {
       color: #fff;
       transition: all 0.5s; }
       .footer__company .footer__socials-link .fab:hover {
-        color: #15a465; }
+        color: #ce2127; }
   .footer__bottom {
     display: flex;
     justify-content: center;
@@ -549,7 +550,7 @@ body {
     cursor: pointer;
     transition: all 0.5s; }
     .footer__privacy-policy:hover, .footer__terms-conditions:hover {
-      color: #15a465; }
+      color: #ce2127; }
 
 .header {
   height: 100vh;

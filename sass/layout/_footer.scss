@@ -32,7 +32,7 @@
       width: 30rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid $color-primary;
+      border-bottom: 2px solid $color-alternate;
       border-width: 100%;
       // overflow: hidden;
 
@@ -48,7 +48,7 @@
       width: 30rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid $color-primary;
+      border-bottom: 2px solid $color-alternate;
       border-width: 100%;
       // overflow: hidden;
 
@@ -65,7 +65,7 @@
       height: 8rem;
       border: none;
       border-radius: 3px;
-      border-bottom: 2px solid $color-primary;
+      border-bottom: 2px solid $color-alternate;
       border-width: 100%;
       // overflow: hidden;
 
@@ -97,7 +97,7 @@
         transition: all 0.2s;
         position: relative;
         letter-spacing: 1.5px;
-
+        background: $color-alternate;
         border: none;
         cursor: pointer;
       }
@@ -137,7 +137,7 @@
       transition: all 0.5s;
 
       &:hover {
-        color: $color-primary;
+        color: $color-alternate;
         cursor: pointer;
       }
     }
@@ -161,7 +161,7 @@
       transition: all 0.5s;
 
       &:hover {
-        color: $color-primary;
+        color: $color-alternate;
         cursor: pointer;
       }
     }
@@ -172,7 +172,7 @@
       transition: all 0.5s;
 
       &:hover {
-        color: $color-primary;
+        color: $color-alternate;
         cursor: pointer;
       }
     }
@@ -194,7 +194,7 @@
         transition: all 0.5s;
 
         &:hover {
-          color: $color-primary;
+          color: $color-alternate;
         }
       }
     }
@@ -223,7 +223,7 @@
     transition: all 0.5s;
 
     &:hover {
-      color: $color-primary;
+      color: $color-alternate;
     }
   }
 }
