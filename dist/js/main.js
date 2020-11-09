@@ -1,6 +1,6 @@
 
 // Smooth Scrolling
-$("#navbar a, #sidebar a, btn").on("click", function (event) {
+$("#navbar a, #sidebar a, #footer_links a, #Booking a, .btn").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
