@@ -1080,6 +1080,9 @@ body {
 .how-to {
   position: relative;
   background: linear-gradient(to right bottom, #18945d, #1ae98e); }
+  .how-to .tertiary-heading-white {
+    padding-right: 2rem;
+    padding-left: 2rem; }
   .how-to__step {
     padding: 0 6rem; }
   .how-to__step-heading {
